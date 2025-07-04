@@ -1,12 +1,14 @@
 cff-version: 1.2.0
-message: If you use this software, please cite it as below.
+message: "If you use this software, please cite it using the metadata below."
+title: "Speech Emotion Recognition"
+version: "1.0.0"
+date-released: 2025-07-04
 authors:
   - family-names: Agrawal
     given-names: Chirag
     orcid: https://orcid.org/0000-0000-0000-0000
-title: Speech Emotion Recognition
-version: 1.0.0
-date-released: 2025-07-04
+abstract: >
+  This repository presents a comprehensive Speech Emotion Recognition (SER) framework that applies various machine learning and deep learning techniques to detect and classify human emotions from speech. It integrates multiple datasets, including RAVDESS, TESS, EMO-DB, and a custom dataset, covering a wide range of emotions such as neutral, calm, happy, sad, angry, fear, disgust, pleasant surprise, and boredom. The system performs feature extraction using MFCC, Chromagram, MEL Spectrogram, Spectral Contrast, and Tonnetz. It supports hyperparameter tuning via grid search and provides multiple classifiers including SVC, RandomForest, GradientBoosting, KNeighbors, MLP, Bagging, and RNNs. This SER framework demonstrates high classification accuracy and serves as a valuable tool in affective computing research.
 keywords:
   - speech emotion recognition
   - audio analysis
@@ -15,10 +17,8 @@ keywords:
   - machine learning
   - deep learning
   - emotion detection
-abstract: >
-  This repository presents a comprehensive Speech Emotion Recognition (SER) framework that employs various machine learning and deep learning techniques to accurately detect and classify human emotions from speech. The framework utilizes multiple datasets, including RAVDESS, TESS, EMO-DB, and a custom dataset, covering a diverse range of emotions such as neutral, calm, happy, sad, angry, fear, disgust, pleasant surprise, and boredom. Feature extraction is performed using widely adopted audio features such as MFCC, Chromagram, MEL Spectrogram, Spectral Contrast, and Tonnetz. The repository supports grid search for hyperparameter tuning and offers various classifiers and regressors such as SVC, RandomForest, GradientBoosting, KNeighbors, MLP, Bagging, and RNNs. The developed SER system demonstrates strong accuracy in emotion classification, making it a valuable tool for research and applications in affective computing.
 repository-code: https://github.com/chirgamiyy/emotion-recognition-using-speech
 license: MIT
 notes: >
-  Based on the original work by [x4nth055](https://github.com/x4nth055/emotion-recognition-using-speech),
-  modified and maintained by [@chirgamiyy](https://github.com/chirgamiyy).
+  Adapted from the original work by [x4nth055](https://github.com/x4nth055/emotion-recognition-using-speech).
+  Modified and maintained by [@chirgamiyy](https://github.com/chirgamiyy).
