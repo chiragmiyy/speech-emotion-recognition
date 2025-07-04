@@ -91,7 +91,7 @@ python src/predict.py      # Predict emotion from audio
 | MLPClassifier         | Custom               | 81.2%    |
 | 🔥 **Best Model**     | Combined Datasets    | **93.96%** ✅ |
 
-- The best model achieves **93.96% accuracy** on a balanced, merged dataset of RAVDESS, TESS, EMO-DB, and custom speech recordings.
+- The best model achieves 93.96% accuracy on a balanced, merged dataset of RAVDESS, TESS, CREMA-D, and custom speech recordings.
 - All models are evaluated using standard metrics like accuracy, F1-score, and confusion matrix.
 - Visualizations and training logs are available in the [`/results/`](./results/) folder.
 
@@ -106,19 +106,22 @@ This project is licensed under the [MIT License](./LICENSE).
 ## 🙌 Acknowledgements
 
 - Based on original work by [@x4nth055](https://github.com/x4nth055/emotion-recognition-using-speech)
+  
 - **Audio Datasets**:
-  - [RAVDESS](https://zenodo.org/record/1188976)
-  - [TESS](https://tspace.library.utoronto.ca/handle/1807/24487)
-  - [EMO-DB (Berlin Emotional Database)](http://emodb.bilderbar.info/)
+  - [RAVDESS on Kaggle](https://www.kaggle.com/datasets/uwrfkaggler/ravdess-emotional-speech-audio)
+  - [TESS on Kaggle](https://www.kaggle.com/datasets/ejlok1/toronto-emotional-speech-set-tess)
+  - [CREMA-D on Kaggle](https://www.kaggle.com/datasets/ejlok1/cremad)
+
 - **Feature Extraction Libraries**:
   - [Librosa](https://librosa.org/)
   - [OpenSMILE Toolkit](https://audeering.github.io/opensmile/)
+
 - **Machine Learning & Deep Learning**:
   - [Scikit-learn](https://scikit-learn.org/)
   - [PyTorch](https://pytorch.org/)
   - [HuggingFace Transformers](https://huggingface.co/)
 
-If you build upon this work, please consider citing it via the [`CITATION.cff`](./CITATION.cff) file.
+> If you build upon this work, please consider citing it via the [`CITATION.cff`](./CITATION.cff) file.
 
 ---
 
