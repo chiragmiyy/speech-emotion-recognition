@@ -68,8 +68,8 @@ emotion-recognition-using-speech/
 
 1. Clone the repo
 
-git clone https://github.com/chirgamiyy/spech-emotion-recognition.git
-cd spech-emotion-recognition
+git clone https://github.com/chirgamiyy/speech-emotion-recognition.git
+cd speech-emotion-recognition
 
 2. Install dependencies
    
@@ -132,7 +132,7 @@ If you use this work, please cite it using the metadata in [`CITATION.cff`](./CI
   title = {Speech Emotion Recognition},
   year = {2025},
   version = {1.0.0},
-  url = {https://github.com/chirgamiyy/spech-emotion-recognition}
+  url = {https://github.com/chirgamiyy/speech-emotion-recognition}
 }
 ```
 Feel free to ⭐ the repo if you found it helpful!
