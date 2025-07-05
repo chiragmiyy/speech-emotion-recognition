@@ -99,8 +99,6 @@ This project is licensed under the [MIT License](./LICENSE).
 ---
 
 ## 🙌 Acknowledgements
-
-- Based on original work by [@x4nth055](https://github.com/x4nth055/emotion-recognition-using-speech)
   
 - **Audio Datasets**:
   - [RAVDESS on Kaggle](https://www.kaggle.com/datasets/uwrfkaggler/ravdess-emotional-speech-audio)
