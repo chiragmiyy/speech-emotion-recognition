@@ -48,18 +48,35 @@ This project implements a Speech Emotion Recognition (SER) pipeline that uses au
 ## 📁 Project Structure
 
 ```bash
-emotion-recognition-using-speech/
-├── data/                   # Audio files and datasets
-├── models/                 # Saved models (.pkl, .pt)
-├── notebooks/              # Jupyter exploration files
-├── src/                    # Core logic
-│   ├── features/           # Feature extraction
-│   ├── models/             # Training logic
-│   ├── utils/              # Helper functions
-├── results/                # Plots, confusion matrices
-├── LICENSE
-├── README.md
-├── CITATION.cff
+speech-emotion-recognition/
+├── data/                         # Raw and processed audio files, organized by dataset
+│   ├── RAVDESS/
+│   ├── TESS/
+│   ├── CREMA-D/
+│   └── custom/                   # Your own audio recordings
+│
+├── models/                       # Trained models & preprocessed data
+│   ├── final_model.pkl
+│   ├── scaler.pkl
+│   ├── label_encoder.pkl
+│   ├── tess-model.pkl
+│   └── tess-label-encoder.pkl    # Any .joblib or .pt files
+│
+├── results/                      # Visual outputs
+│   ├── confusion_matrix.png
+│   ├── model_accuracy_comparison.png
+│
+├── src/                          # Source code
+│   └──features.py                # Feature extraction scripts
+├── train_final_model.py          # Training & evaluation logic
+├── app.py                        # Streamlit-based app to demo emotion predictions
+├── .gitattributes                # Optional: Git LFS or text encoding rules
+├── CITATION.cff                  # Software citation metadata (you-only version)
+├── LICENSE                       # MIT License (under your name)
+├── README.md                     # Main project overview and usage
+├── requirements.txt              # Python dependencies
+├── streamlit_app.py              # App interface for demo/testing
+├── plot_benchmarks.py            # Script to generate accuracy and confusion matrix plots
 ```
 
 ---
