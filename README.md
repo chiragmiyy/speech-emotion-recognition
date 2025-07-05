@@ -84,16 +84,11 @@ python src/predict.py      # Predict emotion from audio
 
 ## 📊 Example Results
 
-| Model                 | Dataset              | Accuracy |
-|----------------------|----------------------|----------|
-| RandomForest          | RAVDESS              | 84.7%    |
-| Wav2Vec2 (Fine-tuned) | TESS + EMO-DB        | 88.9%    |
-| MLPClassifier         | Custom               | 81.2%    |
-| 🔥 **Best Model**     | Combined Datasets    | **93.96%** ✅ |
+### 🔹 Model Accuracy Comparison
+![Model Accuracy](./results/model_accuracy_comparison.png)
 
-- The best model achieves 93.96% accuracy on a balanced, merged dataset of RAVDESS, TESS, CREMA-D, and custom speech recordings.
-- All models are evaluated using standard metrics like accuracy, F1-score, and confusion matrix.
-- Visualizations and training logs are available in the [`/results/`](./results/) folder.
+### 🔹 Confusion Matrix (on Combined Dataset)
+![Confusion Matrix](./results/confusion_matrix.png)
 
 ---
 
