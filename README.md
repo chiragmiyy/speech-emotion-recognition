@@ -84,7 +84,7 @@ python src/predict.py      # Predict emotion from audio
 
 ## 📊 Example Results
 
-### 🔹 Model Accuracy Comparison
+### 🔹 Model Accuracy Comparison (93.96%)
 ![Model Accuracy](./results/model_accuracy_comparison.png)
 
 ### 🔹 Confusion Matrix (on Combined Dataset)
